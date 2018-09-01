@@ -13,7 +13,7 @@ Exemplo de uso:
 ```
 $node
 > let validate = require("letfr-card-validator")
-> validate(136490102462661); //true
+> validate.cardValidator(136490102462661); //true
 ```
 
 

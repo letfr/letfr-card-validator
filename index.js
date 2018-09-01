@@ -1,4 +1,5 @@
-module.exports.cardValidator = function cardValidator(num) {
+
+function cardValidator(num) {
   try {
     if (num === "" || num === undefined) {
       throw new Error("Está faltando parâmetro!");
@@ -24,4 +25,6 @@ module.exports.cardValidator = function cardValidator(num) {
   } catch (e) {
     return e.message;
   }
-};
+}
+module.exports.cardValidator = cardValidator;
+// module.exports = cardValidator;

@@ -4,7 +4,7 @@ var index = require("../index");
 var expect = chai.expect;
 
 describe("index", function () {
-  describe("#cardValidator", function () {
+  describe("#cardValidator()", function () {
     describe("Quando nao houver parâmetro", function () {
       it("deve lancar um erro", function () {
         expect(index.cardValidator()).to.equal("Está faltando parâmetro!");
